@@ -1,0 +1,727 @@
+*{
+padding: 0;
+margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+
+nav{
+    display: flex;
+justify-content: space-between;
+align-items: baseline;
+margin-top: 20px;
+}
+.nav_list{
+    display: flex;
+    
+}
+.nav{
+  
+}
+.nav_list_link{
+    margin-left: 28px;
+    color: black;
+}
+.nav_list_link:hover{
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: 11px 25px;
+    border-radius: 6px;
+}
+.call{
+ 
+    color: black; 
+
+
+}
+.call:hover{
+    text-decoration: none;
+     color: white;
+     background: red;
+     padding: 11px 25px;
+     border-radius: 6px;
+}
+.nav_logo{
+    color: black;
+font-size: 25px;
+font-family: Arial;
+}
+.nav_logo:hover{
+    text-decoration: none;
+    color: black;
+}
+.logo_title{
+    color: black;
+}
+.logo{
+    text-decoration: none; 
+    color: black;
+  font-size: 30px;
+font-family:Arial, ;
+}
+.logo:hover{
+     text-decoration: none;
+     color: black;
+}
+
+.advogrand_content{
+display: contents;
+}
+
+.advogrand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+.number{
+    color: black;
+    font-size: 21px;
+    font-family:Arial, ;
+}
+.number:hover{
+    text-decoration: none;
+    color: black;
+   
+}
+.yurist{
+    color: black;
+    font-family:Arial, ;
+}
+.yurist:hover{
+    text-decoration: none;
+    color: black;
+}
+.header_content{
+    background: url(img/bg.png) no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.apple{
+   border: red solid 2px;
+   border-radius: 6px;
+   padding: 10px;
+   margin-left: 20px;
+}
+.uslugi_title{
+    color: white;
+}
+.uslugi_title2{
+    color: white;
+letter-spacing: 4px;
+}
+.white{
+    color: white;
+    font-family: Arial;
+}
+.day{
+    color: rgb(230, 230, 230);
+}
+.clock{
+    color: rgb(230, 230, 230);
+    margin-top: 62px;
+}
+.uslugi{
+    padding-top: 131px;
+}
+.lichniy{
+    color: white;
+    background: red;
+    padding: 23px 43px ;
+    display: inline-block;
+    border-radius: 8px;
+    margin-top: 72px;
+}
+.lichniy:hover{
+    color: white;
+    text-decoration: none;
+}
+.main_title{
+    color: black;
+    font-family: Arial;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main_img{
+    display: flex;
+  flex-direction: column;
+
+}
+.images{
+    display: flex;
+    margin-top: 100px;
+}
+.img_title{
+    margin-left: 25px;
+   transition: 1s;
+}
+.img_title:hover{
+    color: red;
+ 
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.main_content{
+ display: flex;
+   justify-content: space-between;
+   margin-bottom: 40px;
+}
+.service{
+    background: url(img/service.bg.png) no-repeat;
+    background-size: cover;
+    height: 601px;
+}
+
+.service_title{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+.text{
+    color: white;
+    text-align: center;
+  width: 803px;
+}
+.service_text{
+display: flex;
+
+align-items: center;
+flex-direction: column;
+}
+.icon{
+    width: 46px;
+    height: 46px;
+}
+.num{
+    color: white;
+    text-align: center;
+}
+.num_text{
+    color: white;
+    text-align: center;
+}
+.service_numbers{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+
+.otziv{
+    background: #f5f5f5;
+    height:500px ;
+}
+.otziv_title{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+.otziv_text{
+
+   text-align: center;
+}
+.otziv_img{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.content_text{
+    margin-top: 55px;
+}
+.kompny_title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 100px;
+}
+.pay{
+    color: black;
+font-size: 18px;
+}
+.pay:hover{
+color: black;
+    text-decoration: none;
+}
+.kompny_text{
+    display: flex;
+    flex-direction: column;
+}
+.rubl{
+    display: flex;
+    flex-direction: column;
+max-width: max-content;
+border: grey solid 1px;
+padding: 20px 40px;
+transition: 1s;
+}
+.rubl:hover{
+background: #26b83a;
+padding: 20px 40px;
+color: white;
+border-radius: 7px;
+box-shadow:#26b83a 3px 3px 15px 3px ;
+border: none;
+}
+.rubl_title{
+    text-align: center;
+}
+
+.rubl_text{
+   margin-top: 28px;
+    text-align: center;
+}
+.yuridik{
+    max-width: max-content;
+border: grey solid 1px;
+padding: 20px 8px;
+transition: 1s;
+}
+.yuridik:hover{
+    background: red;
+    padding: 20px 8px;
+    color: white;
+    border-radius: 7px;
+    box-shadow:red 3px 3px 15px 3px ;
+    border: none;
+}
+.yuridik_text{
+    margin-top: 35px;
+    text-align: center;
+}
+.write_img{
+    display: flex;
+    margin-top: 30px;
+}
+.write_img__title{
+    margin-left: 30px;
+}
+.more:hover{
+    text-decoration: none;
+  color: white;
+}
+.more{
+    color: white;
+    background: red;
+    padding:24px 82px ;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 13px;
+    margin-top: 20px;
+}
+.kompny_description{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 100px;
+}
+.kompny_text{
+    display: flex;
+    align-items: flex-end;
+   
+}
+.pay{
+    margin-top: 30px;
+}
+.free{
+    background: url(img/free.bg.png) no-repeat;
+    height: 470px;
+    margin-top: 70px;
+}
+.free_content{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dowlond_list{
+    display: flex;
+    flex-direction: column;
+}
+.dowlond{
+    color: rgb(201, 200, 200);
+margin-top: 22px;
+
+}
+.dowlond:hover{
+    text-decoration: none;
+    color: white;
+}
+.want{
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.red{
+    color: red;
+    font-size: 20px;
+ margin-right: 20px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    max-width: max-content;
+}
+.playmarket{
+    margin-bottom: 40px;
+}
+.otzivi{
+    background:rgb(236, 236, 236);
+    height: 650px;
+}
+.Family_red{
+    color: red;
+    border:red 5px solid ;
+    border-radius: 8px;
+    padding: 7px 17px;
+      font-size: 20px;
+}
+.Family_red:hover{
+    text-decoration: none;
+    color: red;
+  
+}
+.otziv_title1{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    margin-bottom: 40px;
+}
+.Family{
+    color: black;
+    font-size: 18px;
+    margin-left: 27px;
+}
+.otziv_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+.Family:hover{
+    text-decoration: none;
+    color: red;
+    text-decoration: underline red 5px;
+    font-size: 20px;
+}
+
+.Family_m:hover{
+    text-decoration: none;
+    color: red;
+    text-decoration: underline red 5px;
+    font-size: 20px;
+}
+
+.Family_m{
+    color: black;
+    font-size: 18px;
+    margin-right: 27px;
+}
+.video{
+Display: flex;
+justify-content: space-between;
+}
+.video_i{
+    display: inline-block;}
+.Image{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.otzivi_content{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 71px;
+}
+
+.video_href{
+    color: black;
+    margin-top: 20px;
+}
+.video_href:hover{
+color:red;
+
+}
+.partner_title{
+    text-align: center;
+    font-weight: 600;
+    margin-top: 80px;
+}
+.partner_image{
+    display: flex;
+ justify-content: space-between;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+.tarif_text{
+    color:black;
+    font-size: 20px;
+}
+.tarif_text:hover{
+color: black;
+text-decoration: none;
+}
+.tarif_text1{
+    color:red;
+    font-size: 20px;
+    border: red 5px solid;
+    border-radius: 8px;
+    padding: 7px 17px;
+    margin-left: 25px;
+}
+.tarif_text1:hover{
+color: red;
+text-decoration: none;
+}
+.tarif_title2{
+    margin-top: 50px;
+    font-weight: 500;
+}
+.tarif_title{
+    padding-top: 40px;
+}
+.tarif_logo{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  
+}
+.tarif{
+    background: rgb(236, 236, 236);
+    background-size: cover;
+}
+.map_title{
+    text-align: center;
+}
+
+.for_you{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.top1{
+    display: flex;
+    justify-content: center;
+    margin-top: -4px;
+    margin-bottom: 6px;
+    flex-direction: column;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 6px;
+}
+.size{
+    font-size: 13px;
+    margin-top: 6px;
+}
+.size1{
+    font-size: 13px;
+    margin-top: 6px;
+}
+.between{
+    display: flex;
+   justify-content: space-between;
+    border-top: 0.1px solid grey;
+    
+    align-items: center;
+    
+}
+.map{
+  border: 1px solid black;
+background: white;
+padding: 50px 15px;
+}
+.print{
+  
+}
+.card_content{
+    position: relative;
+    height: 171px;
+    overflow: hidden;
+}
+.card_content_img{
+    height: 100%;
+}
+.add:hover{
+    text-decoration: none;
+    color: white;
+}
+.add{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(3, 228, 3);
+    color: white;
+    text-align: center;
+    top: -100%;
+    left: 100%;
+    
+    transition: 1s;
+ transform: rotate(360deg);
+}
+.card_content:hover .add{
+top: 0;
+left: 0;
+
+transform: rotate(0deg);
+}
+.cost{
+    text-align: center;
+}
+.dolar{
+    text-align: center;
+}
+.bought{
+    color: white;
+    background: #9a9a9a;
+    margin-bottom: 18px;
+    padding: 20px 46px;
+    display: inline-block;
+    border-radius: 8px;
+}
+.bought1{
+    color: white;
+    background: #9a9a9a;
+    padding: 20px 72.4px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 8px;
+}
+.bought1:hover{
+text-decoration: none;
+color: white;
+
+}
+
+.bought:hover{
+    text-decoration: none;
+    color: white;
+    
+    }
+.cost_content{
+    text-align: center;
+    margin-top: 217px;
+}
+.cost_content2{
+    text-align: center;
+    margin-top: 153px;
+}
+.cost_content3{
+    text-align: center;
+    margin-top: 34px;
+}
+
+
+
+footer{
+    background: rgb(236, 236, 236);
+    background-size: cover;
+    padding-top: 100px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.name{
+    color: red;
+    width:315px ;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.textarea{
+color: green;
+    resize: none;
+    width: 315px;
+    height: 80px;
+}
+.namer{
+    margin-bottom: 20px;
+}
+.button{
+    background: red;
+    padding: 20px 40px;
+    max-width: max-content;
+    color: white;
+}
+.minut{
+    margin-top: 25px;
+text-align: center;
+}
+.contact{
+    margin-bottom: 60px;
+}
+
+.email{
+    margin-top: 30px;
+}
+.work{
+    margin-top: 30px;
+}
+
+.party{
+    font-weight: 900;
+}
+.number{
+    font-weight: 900;
+}
+.footer_description{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_left{
+    background: white;
+    padding-top: 100px  ;
+    padding-left:161px ;
+    padding-right:200px  ;
+    margin-bottom:30px;
+    margin-top: -80px;
+}
+.footer_title{
+    margin-top: 87px;
+}
+
+.footer_main{
+    background: #000;
+    background-size: cover;
+   height: 136px;
+}
+.footer_main_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 42px;
+    padding-top: 42px;
+}
+.sayt{
+    color: white;
+    padding-right: 20px;  
+    text-align: center;
+    margin: 0;
+}
+.footer_logo2{
+    display: flex;
+    align-items: center;
+  
+}
+
+
+
+
+
+
